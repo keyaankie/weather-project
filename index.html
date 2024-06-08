@@ -10,21 +10,30 @@
 <body>
      <div class="weather-data">
     <header>
-        <form> <input type="text" placeholder="Enter a city..." required> <input type="submit" value="Search"></form>
+        <form class="search-form">  <input type="text" placeholder="Enter a city..." required class="search-form-input">
+             <input type="submit" value="Search" class="search-form-button">  </form>
          
         <main>
-            <h1>Pretoria</h1>
-            <p>thursday 5:03, opencast
+            <div class="weather-app-data">
+             <div>
+            <h1 class="weather-app-city">Pretoria</h1>
+            <p class="weather-app-details">thursday 5:03, opencast
                 <br />
-                Humidity:67%, Wind:45km/h
+                Humidity: <strong>67%</strong>, Wind: <strong>45km/h</strong>
             </p>
-            ☀️ 30°C
+        </div>
+        <div class="weather-app-temperature-container">
+         <div class="weather-app-icon">☀️</div>
+         <div class="weather-app-temperature">20</div>
+         <div class="units">°C</div>
+        </div>
+    </div>
         </main>
     </header>
     
-    <footer>Coded by <a href="https://github.com/keyaankie" target="_blank">Keabetswe Selokela
-    </a>, hosted on <a href="https://github.com/keyaankie/weather-project" target="_blank">Github</a>
-and website hosted <a href="https://myweatherpalshecodes.netlify.app/" target="_blank">Netlify</a></footer>
+    <footer>This project was coded by <a href="https://github.com/keyaankie" target="_blank">Keabetswe Selokela
+    </a>, open sourced on <a href="https://github.com/keyaankie/weather-project" target="_blank">Github</a>
+and hosted on <a href="https://myweatherpalshecodes.netlify.app/" target="_blank">Netlify</a></footer>
 </div>
 </body>
 </html>
