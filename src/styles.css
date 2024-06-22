@@ -5,14 +5,14 @@
      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
      
  }
- .weather-data {max-width: 450px;
+ .weather-data {max-width: 550px;
     margin: 0 auto;
     padding: 40px;
     border-radius: 30px;
     box-shadow: 0 30px 50px rgba(158, 204, 250, 0.8);
     margin-top: 150px;
      backdrop-filter:blur(10px);
-      height: 250px;
+      height: 300px;
        
  }
   
@@ -99,4 +99,20 @@ a {
   font-size: 28px;
   margin-top: 40px;
 }
+.weather-forecast {
+  margin-top: 20px;
+  display: flex;
+   
+}
+ .weather-forecast-date {
+font-size: 20px;
+opacity: 0.6;
  
+ }
+ .weather-forecast-temperature {
+  font-size: 17px;
+
+ }
+ .weather-forecast-temperature-min {
+  opacity: 0.6;
+ }
