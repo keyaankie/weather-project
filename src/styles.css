@@ -100,32 +100,52 @@ a {
   margin-top: 40px;
 }
 .weather-forecast {
-  margin-top: 20px;
   display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.weather-forecast-date {
+  text-align: center;
+  color: grey;
+  font-size: 20px;
+  line-height: 20px;
+   margin: 0px 25px;
+  position: relative;
+  top: -30px;
+  left: 5px;
+
+}
+
+.weather-forecast-icon {
+  width: 45px;
+  height: 88px;
+  display: block;
+  margin: 0 auto;
+    position: relative;
+    left: -80px;
+    top: -15px;
+
+}
+.weather-forecast-temperatures {
+  text-align: center;
+  color:#0B1957 ;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -20px;
+  left:  5px;
    
 }
- .weather-forecast-date {
-font-size: 20px;
-opacity: 0.6;
- 
- }
- .weather-forecast-temperature {
-  font-size: 17px;
 
- }
-  .weather-forecast-temperature-min {
- color: #0B1957;
- position: relative;
- left: 10px;
- 
- 
-  }
- 
- .weather-forecast-day {
-  margin-right: 50px;
-  margin-left: 10px;
-   
- }
- .weather-forecast-icon {
-  font-size: 40px;
- }
+.weather-forecast-temperature {
+  padding: 0 10px;
+}
+.weather-forecast-day {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  left: -30px;
+    border: 30px;
+}
